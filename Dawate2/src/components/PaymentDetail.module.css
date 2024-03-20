@@ -1,0 +1,88 @@
+
+
+.PaymentDetailMainContainer{
+    position: relative;
+    top: 110px;
+    padding: 80px 5% 40px 5%;
+    background: linear-gradient(rgb(229, 228, 228), white);
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+
+
+.paymentMethodContainer{
+    padding: 20px 40px;
+    border-radius: 20px;
+    background: linear-gradient(lightgray, white);
+    box-shadow: 5px 5px 5px lightgray;
+    width: 870px;
+    height: 255px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.paymentMethodList{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.btnSytle{
+    width: 100px;
+    border: none;
+    outline: none;
+    padding: 5px 0;
+    border-radius: 5px;
+    background-color: lightgreen;
+    color: white;
+}
+.btnSytle:hover{
+    background-color: rgb(98, 225, 98);
+}
+
+
+
+
+
+.PaymentDetailContainer{
+    width: 30%;
+}
+
+.courseDetail{
+    background: linear-gradient(lightgray, white);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px lightgray;
+    padding: 15px 30px;
+    margin-bottom: 20px;
+}
+
+.paymentDetail{
+    background: linear-gradient(lightgray, white);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px lightgray;
+    padding: 25px 30px;
+}
+
+.courseFee{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
+}
+
+.totalFee{
+    display: flex;
+    justify-content: space-between;
+}
+
+.totalAndFee{
+    font-size: 25px;
+    font-weight: 550;
+}
+
+.inclText{
+    font-size: 15px;
+}

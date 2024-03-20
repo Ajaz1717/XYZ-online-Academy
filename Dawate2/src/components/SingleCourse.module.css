@@ -1,0 +1,51 @@
+.singleCourse{
+    background: linear-gradient(rgb(187, 186, 186), white);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px lightgray;
+    margin: 10px 4px;
+}
+
+.imgStyle{
+    width: 260px;
+    margin: 20px;
+}
+
+.courseDiscription{
+    margin: 0 20px;
+    text-align: justify;
+}
+
+.btnStyle{
+    border: none;
+    outline: none;
+    background-color: lightgreen;
+    padding: 5px 0;
+    border-radius: 10px;
+    font-weight: 500;
+    color: white;
+    font-size: 20px;
+    margin: 15px 0;
+    width: 250px;
+    position: relative;
+    left: 25px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.btnStyle:hover{
+    background-color: rgb(98, 225, 98);
+}
+
+.courseName{
+    width: 260px;
+    height: 67px;
+    position: relative;
+    left: 18px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+}

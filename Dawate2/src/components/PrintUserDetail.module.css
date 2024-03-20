@@ -1,0 +1,36 @@
+.zIndex{
+    background-color: white;
+    width: 100%;
+    position: relative;
+    z-index: 99;
+}
+
+.headingPosition{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.divPosition{
+    position: relative;
+    top: 8%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.makeBtn{
+    background-color: lightgreen;
+    padding: 10px 60px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.makeBtn:hover{
+    background-color: rgb(98, 225, 98);
+}

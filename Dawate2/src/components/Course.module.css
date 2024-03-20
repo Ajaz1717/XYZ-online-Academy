@@ -1,0 +1,37 @@
+.mainCourseContainer{
+    position: relative;
+    top: 100px;
+    margin-bottom: 85px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(229, 228, 228), white);
+}
+@media screen and (max-width: 400px) {
+    .mainCourseContainer{
+        top: 174px;
+    }
+}
+
+.courseDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    width: 90%;
+    /* left: 5%; */
+    text-align: center;
+    background: linear-gradient(lightgray, white);
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px lightgray;
+    padding: 40px;
+}
+
+.headinName{
+    padding: 20px 0;
+    text-align: center;
+}
+
+.searchContainer{
+    margin-bottom: 30px;
+}

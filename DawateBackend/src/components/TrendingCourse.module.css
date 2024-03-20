@@ -1,0 +1,8 @@
+.mainListContainer{
+    position: relative;
+    top: 30px;
+    padding: 50px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 5px lightgray;
+    background: linear-gradient(lightgray, white);
+}

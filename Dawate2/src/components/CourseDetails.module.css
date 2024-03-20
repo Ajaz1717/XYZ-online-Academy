@@ -1,0 +1,238 @@
+.mainCourseContainer{
+    position: relative;
+    top: 100px;
+    background: linear-gradient(rgb(229, 228, 228), white);
+    padding: 20px 0;
+}
+@media screen and (max-width: 450px) {
+    .mainCourseContainer{
+        top: 174px;
+    }
+    .courseContainer{
+        flex-direction: column-reverse;
+    }
+    .nameCourse{
+        position: relative;
+        top: -175px;
+        left: 40px;
+    }
+}
+
+
+.courseContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 5%;
+    background: linear-gradient(lightgray, white);
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px lightgray;
+}
+
+.nameCourse{
+    text-transform: capitalize;
+}
+
+.courseAbout{
+    width: 50vw;
+    margin-right: 70px;
+}
+
+.studyMethod{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.courseBanner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.language{
+    margin: 20px 0;
+    font-size: 22px;
+}
+
+.urdu{
+    background-color: darkgray;
+    padding: 3px 15px;
+    border-radius: 15px;
+    color: white;
+}
+
+.iconAlign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px;
+    text-align: center;
+}
+
+.iconResize{
+    font-size: 35px;
+}
+
+.courseDetailButton{
+    background-color: lightgreen;
+    padding: 10px 60px;
+    min-width: 250px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.courseDetailButton:hover{
+    background-color: rgb(98, 225, 98);
+}
+
+.syllabusContainer{
+    margin-top: 50px;
+    width: 90%;
+    position: relative;
+    left: 5%;
+    background: linear-gradient(lightgray, white);
+    padding: 30px 50px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px lightgray;
+}
+
+.syllabusHeading{
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.syllabusList ol {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+
+.syllabusList ol ul {
+    margin: 60px;
+}
+
+.priceDetailAndFeature{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.coursePlanContainer{
+    
+    margin-top: 50px;
+    width: 90%;
+    position: relative;
+    left: 5%;
+    background: linear-gradient(lightgray, white);
+    padding: 30px 20px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px lightgray;
+}
+
+.coursePlane{
+    color: rgb(217, 138, 34);
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.courseDetailDiv{
+    width: 600px;
+}
+.planName{
+    color: rgb(98, 225, 98);
+    margin-bottom: 20px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(173, 88, 88);
+    text-transform: capitalize;
+}
+
+.planPerMonth{
+    position: relative;
+    top: -10px;
+}
+
+.buyFullCourseBtn{
+    background-color: lightgreen;
+    padding: 10px 60px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 40px;
+    display: block;
+    width: 250px;
+    text-decoration: none;
+}
+
+.buyFullCourseBtn:hover{
+    background-color: rgb(98, 225, 98);
+}
+
+.mainDetails{
+    background: linear-gradient(rgb(222, 176, 128), wheat);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.feature{
+    background-color: lightgray;
+    padding: 10px;
+    margin: 35px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.paymentMethods{
+    width: 450px;
+    background: linear-gradient(rgb(222, 176, 128), rgb(229, 214, 185));
+    border-radius: 20px;
+}
+
+.headinPaymentMethod{
+    text-align: center;
+    margin: 50px 0;
+}
+
+.available{
+    position: relative;
+    left: 50px;
+}
+
+.methods{
+    position: relative;
+    left: 50px;
+    font-size: 25px;
+    
+}
+
+.methodGap{
+    margin: 15px 0;
+}
+
+.ourResultContainer{
+    margin: 50px 0;
+    width: 90%;
+    position: relative;
+    left: 5%;
+    background: linear-gradient(lightgray, white);
+    padding: 30px 50px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px lightgray;
+}

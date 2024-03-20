@@ -1,0 +1,27 @@
+.cardContainer{
+    background: linear-gradient(lightgray, white);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px lightgray;
+    width: 12rem;
+    height: 12rem;
+    margin: 20px 20px;
+    border-radius: 20px;
+}
+
+.btnstyle{
+    background-color: lightgreen;
+    text-decoration: none;
+    padding: 10px 0;
+    color: white;
+    display: block;
+    width: 110px;
+    position: relative;
+    left: 41px;
+    border-radius: 12px;
+}
+
+.btnstyle:hover{
+    background-color: rgb(98, 225, 98);
+}

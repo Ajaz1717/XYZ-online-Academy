@@ -1,0 +1,28 @@
+.MainCardContainer{
+    width: 80%;
+}
+
+.commonDiv{
+    margin-bottom: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+.btnCenter{
+    display: flex;
+    justify-content: center;
+}
+
+.makeBtn{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: lightgreen;
+    padding: 7px 0;
+    width: 100px;
+    display: block;
+    border-radius: 5px;
+}
+.makeBtn:hover{
+    background-color: rgb(98, 225, 98);
+}

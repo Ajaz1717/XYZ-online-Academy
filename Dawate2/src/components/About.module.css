@@ -1,0 +1,97 @@
+.aboutMainContainer{
+    position: relative;
+    top: 100px;
+    background:  linear-gradient(rgb(229, 228, 228), white);
+}
+@media screen and (max-width: 400px) {
+    .aboutMainContainer{
+        top: 174px;
+        margin-bottom: 110px;
+    }
+    .commonDiv{
+        margin: 0px 0;
+    }
+    .flexAchiveComp{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        position: relative;
+        top: 12px;
+    }
+}
+
+.headingName{
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+
+.aboutContainer{
+    width: 90%;
+    position: relative;
+    left: 5%;
+    top: 20px;
+    padding: 40px;
+    background: linear-gradient(lightgray, white);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px lightgray;
+    text-align: justify;
+}
+
+.achivementContainer{
+    width: 90%;
+    position: relative;
+    left: 5%;
+    top: 20px;
+    padding: 40px;
+    background: linear-gradient(lightgray, white);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px lightgray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+
+.branch{
+    display: flex;
+    align-items: center;
+}
+
+.map{
+    font-size: 50px;
+    margin-right: 20px;
+}
+
+.branchNumber{
+    text-align: center;
+}
+
+.passout{
+    display: flex;
+    align-items: center;
+}
+
+.passLogo{
+    font-size: 50px;
+    margin-right: 20px; 
+}
+
+.passoutDetail{
+    text-align: center;
+}
+
+.student{
+    display: flex;
+    align-items: center;
+}
+
+.studentLogo{
+    font-size: 50px;
+    margin-right: 20px; 
+}
+
+.studentDetails{
+    text-align: center;
+}

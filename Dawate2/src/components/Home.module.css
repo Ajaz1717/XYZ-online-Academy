@@ -1,0 +1,52 @@
+.homeContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    position: relative;
+    top: 80px;
+    background: linear-gradient(rgb(229, 228, 228), white);
+}
+
+.banner{
+    border-radius: 35px;
+}
+
+.organizationaName{
+    text-align: center;
+}
+
+.popularContainer{
+    position: relative;
+    top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(lightgray, white);
+    border-radius: 30px;
+    width: 86%;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px lightgray;
+}
+
+.popularCourseCard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.heading{
+    color: white;
+    font-size: 22px;
+    border-radius: 10px;
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(237, 237, 124, 0.4);
+    height: 38px;
+    width: 220px;
+    margin: 20px;
+}

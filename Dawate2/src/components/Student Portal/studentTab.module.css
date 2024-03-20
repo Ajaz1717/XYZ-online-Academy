@@ -1,0 +1,217 @@
+.bcgHide{
+    width: 100%;
+    height: 200px;
+    position: fixed;
+    z-index: 7;
+    background-color: rgb(229, 228, 228);
+}
+
+.studentTabMainContainer{
+    background: linear-gradient(rgb(229, 228, 228), white);
+    height: 700px;
+    position: relative;
+    width: 100%;
+    z-index: 9;
+}
+
+
+.sideBarContainer{
+    background: linear-gradient(gray, lightgray);
+    height: 670px;
+    position: fixed;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px gray;
+    width: 300px;
+    margin: 25px;
+}
+
+
+.topDev{
+    height: 200px;
+    background-color: rgb(49, 48, 48);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: wheat;
+    font-size: 30px;
+    border-radius: 20px 20px 0 0;
+}
+.navLink{
+    background: linear-gradient(lightgray, white);
+    width: 85%;
+    position: relative;
+    left: 7.5%;
+    top: 5%;
+    border-radius: 15px;
+    padding: 15px 20px 15px 20px;
+}
+
+
+
+.myActive{
+    background-color: lightgreen;
+    padding: 1px 0px;
+    border-radius: 10px;
+}
+.myActive:hover{
+    background-color: rgb(98, 225, 98);
+}
+.navLink li{
+    list-style: none;
+}
+.mkeBtn{
+    background-color: transparent;
+    border: none;
+    font-weight: 600;
+}
+
+.navLinkLive{
+    background: linear-gradient(lightgray, white);
+    width: 85%;
+    position: relative;
+    left: 7.5%;
+    top: 5%;
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin: 20px 0;
+}
+.joinHover{
+    margin-left: 3px;
+}
+.joinHover:hover{
+    padding: 1px 9px;
+    border-radius: 10px;
+    background-color: rgb(98, 225, 98);
+}
+
+.displayContainer{
+    background: linear-gradient(lightgray, white);
+    height: 90vh; /*remove*/
+    width: 75vw;
+    position: relative;
+    float: right;
+}
+
+.fixdHeader{
+    /* position: fixed; */
+    width: 100%;
+    /* z-index: 8; */
+    background-color: rgb(229, 228, 228);
+}
+
+.topDiv{
+    padding: 10px 20px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.stutentAndOrganizationDiv{
+    display: flex;
+    /* flex-wrap: wrap; */
+    max-width: 1120px;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-bottom: 10px;
+}
+
+.studentDetail{
+    width: 35%;
+    background: linear-gradient(lightgray, white);
+    padding: 20px;
+    background: lightgreen;
+    border-radius: 20px;
+    display: flex;
+    /* flex-shrink: 3; */
+    flex-wrap: wrap;
+    min-width: 220px;
+    justify-content: space-between;
+}
+
+.myPic{
+    height: 120px;
+    border-radius: 50%;
+}
+
+.besicDetail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    font-weight: 500;
+    gap: 7px;
+    font-size: 16px;
+}
+
+.organizationDetail{
+    width: 63%;
+    padding: 20px;
+    background: linear-gradient(lightgray, white);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px lightgray;
+}
+
+.organization{
+    font-size: 20px;
+}
+
+.cousreName{
+    background-color: rgb(49, 48, 48);
+    padding: 7px 15px;
+    color: white;
+    border-radius: 14px;
+    max-width: 380px;
+    /* text-align: center; */
+    margin: 20px 0 10px 0;
+}
+
+.organizationName{
+    background-color: rgb(49, 48, 48);
+    padding: 7px;
+    color: white;
+    border-radius: 14px;
+    max-width: 240px;
+    text-align: center;
+}
+
+.stateDisplay{
+    /* position: relative;
+    top: 260px; */
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 400px) {
+    .sideBarContainer{
+        width: 50px;
+        margin: unset;
+        border-radius: unset;
+        height: 80%;
+    }
+    .navLink{
+        width: unset;
+        left: unset;
+        padding: unset;
+    }
+    .navLinkLive{
+        height: 60px;
+        width: unset;
+        padding: unset;
+        left: unset;
+    }
+    .Apkset{
+        position: relative;
+        /* right: 15px; */
+        bottom: 50px;
+    }
+    .hide{
+        visibility: hidden;
+    }
+    .displayContainer{
+        position: relative;
+        right: 35px;
+    }
+    .studentDetail{
+        /* display: flex; */
+        width: 2000px;
+    }
+}

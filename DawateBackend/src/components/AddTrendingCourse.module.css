@@ -1,0 +1,33 @@
+.mainAddCourseContainer{
+    background: linear-gradient(lightgray, white);
+    position: relative;
+    top: 30px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 5px lightgray;
+    padding: 50px 300px;
+}
+
+.commonDivFlex{
+    display: flex;
+    gap: 190px;
+    margin: 40px 0;
+}
+
+.addMoreBtn{
+    border: none;
+    background: none;
+    text-decoration: underline;
+    color: yellowgreen;
+    float: right;
+}
+
+.btnMake{
+    border: none;
+    background-color: lightgreen;
+    padding: 5px 20px;
+    color: white;
+    border-radius: 7px;
+}
+.btnMake:hover{
+    background-color: rgb(98, 225, 98);
+}

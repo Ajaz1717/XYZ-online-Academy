@@ -1,0 +1,24 @@
+.mainContainer{
+    position: relative;
+    top: 100px;
+    padding: 50px 50px 0 50px;
+    background: linear-gradient(rgb(229, 228, 228), white);
+}
+
+.stateManage{
+    text-align: center;
+}
+
+.btnMake{
+    border: none;
+    padding: 5px 20px;
+    color: white;
+    border-radius: 7px;
+    margin: 0 20px;
+}
+.active{
+    background-color: lightgreen;
+}
+.btnMake:hover{
+    background-color: rgb(98, 225, 98);
+}
